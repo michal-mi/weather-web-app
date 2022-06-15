@@ -1,0 +1,671 @@
+{
+	"info": {
+		"_postman_id": "497419d1-be8d-4c19-80b6-f70132b97442",
+		"name": "WeatherApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20433869"
+	},
+	"item": [
+		{
+			"name": "Other",
+			"item": [
+				{
+					"name": "Delete user u1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/62a200d6f157f0b7b8b602e6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"62a200d6f157f0b7b8b602e6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete user u2",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/62a200d6f157f0b7b8b602e4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"62a200d6f157f0b7b8b602e4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete another user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/62a3713dcdecf253e519c8ed",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"62a3713dcdecf253e519c8ed"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete role admin",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/roles/62a1ceb159247954dc9333f5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"roles",
+								"62a1ceb159247954dc9333f5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete role user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/roles/62a1d04015d3b56b945d9a28",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"roles",
+								"62a1d04015d3b56b945d9a28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addUser",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzEzZGNkZWNmMjUzZTUxOWM4ZWQiLCJpYXQiOjE2NTUzMDY4MDEsImV4cCI6MTY1NTMxNDAwMX0.9E_Mkvx8zv733shOGGzGo2CmSkZU6N0hpV9mdgSN7hw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\": \"62a200d6f157f0b7b8b602e6\",\r\n    \"firstName\": \"u1\",\r\n    \"lastName\": \"u1\",\r\n    \"email\": \"u1@u1.com\",\r\n    \"password\": \"$Haslo123$\",\r\n    \"phoneNumber\": \"123456789\",\r\n    \"roleID\": \"62a1d04015d3b56b945d9a28\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/withRole",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"withRole"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"michal.mielcarek@pollub.edu.pl\",\r\n    \"password\" : \"$Haslo123$\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddWeather",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"city1\": \"Lublin\",\r\n    \"city2\": \"Warsaw\",\r\n    \"begDate\": \"2022-06-01\",\r\n    \"endDate\": \"2022-06-08\",\r\n    \"date\": \"\",\r\n    \"dataCity1\": [\r\n        {\r\n            \"wdir\": 183.46,\r\n            \"temp\": 16.7,\r\n            \"maxt\": 22.6,\r\n            \"visibility\": 8.5,\r\n            \"wspd\": 15.1\r\n        },\r\n        {\r\n            \"wdir\": 183.46,\r\n            \"temp\": 16.7,\r\n            \"maxt\": 22.6,\r\n            \"visibility\": 8.5,\r\n            \"wspd\": 15.1\r\n        }\r\n    ],\r\n    \"dataCity2\": [\r\n        {\r\n            \"wdir\": 183.46,\r\n            \"temp\": 16.7,\r\n            \"maxt\": 22.6,\r\n            \"visibility\": 8.5,\r\n            \"wspd\": 15.1\r\n        },\r\n        {\r\n            \"wdir\": 183.46,\r\n            \"temp\": 16.7,\r\n            \"maxt\": 22.6,\r\n            \"visibility\": 8.5,\r\n            \"wspd\": 15.1\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/weathers/62a87152d4e09efcc6f3c0a0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"weathers",
+								"62a87152d4e09efcc6f3c0a0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get weather",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/weathers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"weathers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete weather",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/weathers/62a97ab471a505a1de8e6ad1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"weathers",
+								"62a97ab471a505a1de8e6ad1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete all weather",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/weathers/deleteAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"weathers",
+								"deleteAll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all search history",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/histories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"histories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get search history for one user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/histories/user/629f5f9d9cfff58199cab38c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"histories",
+								"user",
+								"629f5f9d9cfff58199cab38c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete one entry in search history",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/histories/62a962a46cbcf2e4a0a4554f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"histories",
+								"62a962a46cbcf2e4a0a4554f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"wdir\": 183.46,\r\n        \"temp\": 16.7,\r\n        \"maxt\": 22.6,\r\n        \"visibility\": 8.5,\r\n        \"wspd\": 15.1,\r\n        \"datetimeStr\": \"2022-06-01T00:00:00+02:00\",\r\n        \"solarenergy\": null,\r\n        \"heatindex\": null,\r\n        \"cloudcover\": 16.8,\r\n        \"mint\": 12.1,\r\n        \"datetime\": 1654041600000,\r\n        \"precip\": 0.39,\r\n        \"solarradiation\": null,\r\n        \"weathertype\": \"Lightning Without Thunder, Mist, Thunderstorm, Rain, Thunderstorm Without Precipitation, Rain Showers, Light Rain, Sky Coverage Decreasing, Sky Coverage Increasing, Sky Unchanged\",\r\n        \"snowdepth\": null,\r\n        \"sealevelpressure\": 1014.9,\r\n        \"snow\": null,\r\n        \"dew\": 12.8,\r\n        \"humidity\": 80.16,\r\n        \"precipcover\": 12.5,\r\n        \"wgust\": 30.9,\r\n        \"conditions\": \"Rain\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"Lublin\"\r\n    },\r\n    {\r\n        \"wdir\": 221.33,\r\n        \"temp\": 14.1,\r\n        \"maxt\": 19.7,\r\n        \"visibility\": 7.5,\r\n        \"wspd\": 11.3,\r\n        \"datetimeStr\": \"2022-06-02T00:00:00+02:00\",\r\n        \"solarenergy\": null,\r\n        \"heatindex\": null,\r\n        \"cloudcover\": 31.8,\r\n        \"mint\": 10,\r\n        \"datetime\": 1654128000000,\r\n        \"precip\": 6.06,\r\n        \"solarradiation\": null,\r\n        \"weathertype\": \"Mist, Rain, Fog, Rain Showers, Light Rain, Sky Coverage Decreasing, Sky Coverage Increasing, Sky Unchanged\",\r\n        \"snowdepth\": null,\r\n        \"sealevelpressure\": 1018.6,\r\n        \"snow\": null,\r\n        \"dew\": 12.2,\r\n        \"humidity\": 89.32,\r\n        \"precipcover\": 12.5,\r\n        \"wgust\": 23.4,\r\n        \"conditions\": \"Rain, Partially cloudy\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"Lublin\"\r\n    },\r\n    {\r\n        \"wdir\": 156.38,\r\n        \"temp\": 16.3,\r\n        \"maxt\": 23.5,\r\n        \"visibility\": 8.7,\r\n        \"wspd\": 6.9,\r\n        \"datetimeStr\": \"2022-06-03T00:00:00+02:00\",\r\n        \"solarenergy\": null,\r\n        \"heatindex\": null,\r\n        \"cloudcover\": 4.9,\r\n        \"mint\": 6.8,\r\n        \"datetime\": 1654214400000,\r\n        \"precip\": 0,\r\n        \"solarradiation\": null,\r\n        \"weathertype\": \"Mist, Rain, Fog, Light Rain, Sky Coverage Increasing\",\r\n        \"snowdepth\": null,\r\n        \"sealevelpressure\": 1023.1,\r\n        \"snow\": null,\r\n        \"dew\": 9.3,\r\n        \"humidity\": 67.9,\r\n        \"precipcover\": 0,\r\n        \"wgust\": 6.7,\r\n        \"conditions\": \"Clear\",\r\n        \"windchill\": 7.6,\r\n        \"info\": null,\r\n        \"city\": \"Lublin\"\r\n    },\r\n    {\r\n        \"wdir\": 136.04,\r\n        \"temp\": 15.2,\r\n        \"maxt\": 19.7,\r\n        \"visibility\": 6.7,\r\n        \"wspd\": 7.4,\r\n        \"datetimeStr\": \"2022-06-04T00:00:00+02:00\",\r\n        \"solarenergy\": null,\r\n        \"heatindex\": null,\r\n        \"cloudcover\": 39.2,\r\n        \"mint\": 11.2,\r\n        \"datetime\": 1654300800000,\r\n        \"precip\": 7.69,\r\n        \"solarradiation\": null,\r\n        \"weathertype\": \"Mist, Rain, Rain Showers, Fog, Light Rain, Sky Coverage Increasing, Sky Unchanged\",\r\n        \"snowdepth\": null,\r\n        \"sealevelpressure\": 1019,\r\n        \"snow\": null,\r\n        \"dew\": 14.1,\r\n        \"humidity\": 93.4,\r\n        \"precipcover\": 8.33,\r\n        \"wgust\": 6.8,\r\n        \"conditions\": \"Rain, Partially cloudy\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"Lublin\"\r\n    },\r\n    {\r\n        \"wdir\": 85.79,\r\n        \"temp\": 17.6,\r\n        \"maxt\": 20.9,\r\n        \"visibility\": 8.9,\r\n        \"wspd\": 15.2,\r\n        \"datetimeStr\": \"2022-06-01T00:00:00-04:00\",\r\n        \"solarenergy\": 11.2,\r\n        \"heatindex\": null,\r\n        \"cloudcover\": 92.1,\r\n        \"mint\": 15.9,\r\n        \"datetime\": 1654041600000,\r\n        \"precip\": 16.37,\r\n        \"solarradiation\": 207.2,\r\n        \"weathertype\": \"Lightning Without Thunder, Mist, Thunderstorm, Rain, Heavy Rain, Light Rain\",\r\n        \"snowdepth\": 0,\r\n        \"sealevelpressure\": 1014,\r\n        \"snow\": 0,\r\n        \"dew\": 13.4,\r\n        \"humidity\": 77.21,\r\n        \"precipcover\": 25,\r\n        \"wgust\": 20.8,\r\n        \"conditions\": \"Rain, Overcast\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"New York\"\r\n    },\r\n    {\r\n        \"wdir\": 183.04,\r\n        \"temp\": 20.5,\r\n        \"maxt\": 26.7,\r\n        \"visibility\": 7.1,\r\n        \"wspd\": 8.4,\r\n        \"datetimeStr\": \"2022-06-02T00:00:00-04:00\",\r\n        \"solarenergy\": 14.4,\r\n        \"heatindex\": 27.8,\r\n        \"cloudcover\": 83.5,\r\n        \"mint\": 16.4,\r\n        \"datetime\": 1654128000000,\r\n        \"precip\": 10.64,\r\n        \"solarradiation\": 286,\r\n        \"weathertype\": \"Mist, Thunderstorm, Rain, Heavy Rain, Light Rain\",\r\n        \"snowdepth\": 0,\r\n        \"sealevelpressure\": 1007.5,\r\n        \"snow\": 0,\r\n        \"dew\": 17.7,\r\n        \"humidity\": 85.1,\r\n        \"precipcover\": 25,\r\n        \"wgust\": 24.2,\r\n        \"conditions\": \"Rain, Overcast\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"New York\"\r\n    },\r\n    {\r\n        \"wdir\": 105.29,\r\n        \"temp\": 20.6,\r\n        \"maxt\": 24,\r\n        \"visibility\": 6.6,\r\n        \"wspd\": 8.1,\r\n        \"datetimeStr\": \"2022-06-03T00:00:00-04:00\",\r\n        \"solarenergy\": 23.6,\r\n        \"heatindex\": null,\r\n        \"cloudcover\": 75,\r\n        \"mint\": 17.4,\r\n        \"datetime\": 1654214400000,\r\n        \"precip\": 0,\r\n        \"solarradiation\": 410.5,\r\n        \"weathertype\": \"Mist, Light Drizzle, Smoke Or Haze\",\r\n        \"snowdepth\": 0,\r\n        \"sealevelpressure\": 1007.7,\r\n        \"snow\": 0,\r\n        \"dew\": 15.8,\r\n        \"humidity\": 75.96,\r\n        \"precipcover\": 0,\r\n        \"wgust\": null,\r\n        \"conditions\": \"Partially cloudy\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"New York\"\r\n    },\r\n    {\r\n        \"wdir\": 202,\r\n        \"temp\": 22,\r\n        \"maxt\": 27.1,\r\n        \"visibility\": 9.9,\r\n        \"wspd\": 8.7,\r\n        \"datetimeStr\": \"2022-06-04T00:00:00-04:00\",\r\n        \"solarenergy\": 25.9,\r\n        \"heatindex\": 26.6,\r\n        \"cloudcover\": 14.4,\r\n        \"mint\": 16.7,\r\n        \"datetime\": 1654300800000,\r\n        \"precip\": 0,\r\n        \"solarradiation\": 449.9,\r\n        \"weathertype\": \"\",\r\n        \"snowdepth\": 0,\r\n        \"sealevelpressure\": 1011,\r\n        \"snow\": 0,\r\n        \"dew\": 10.2,\r\n        \"humidity\": 48.45,\r\n        \"precipcover\": 0,\r\n        \"wgust\": 24.2,\r\n        \"conditions\": \"Clear\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"New York\"\r\n    },\r\n    {\r\n        \"wdir\": 202,\r\n        \"temp\": 22,\r\n        \"maxt\": 27.1,\r\n        \"visibility\": 9.9,\r\n        \"wspd\": 8.7,\r\n        \"datetimeStr\": \"2022-06-04T00:00:00-04:00\",\r\n        \"solarenergy\": 25.9,\r\n        \"heatindex\": 26.6,\r\n        \"cloudcover\": 14.4,\r\n        \"mint\": 16.7,\r\n        \"datetime\": 1654300800000,\r\n        \"precip\": 0,\r\n        \"solarradiation\": 449.9,\r\n        \"weathertype\": \"\",\r\n        \"snowdepth\": 0,\r\n        \"sealevelpressure\": 1011,\r\n        \"snow\": 0,\r\n        \"dew\": 10.2,\r\n        \"humidity\": 48.45,\r\n        \"precipcover\": 0,\r\n        \"wgust\": 24.2,\r\n        \"conditions\": \"Clear\",\r\n        \"windchill\": null,\r\n        \"info\": null,\r\n        \"city\": \"New York\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "1. Add admin role",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"62a1ceb159247954dc9333f5\",\r\n    \"name\": \"admin\",\r\n    \"description\": \"can edit, import and export database\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/roles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"roles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Add user role",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"62a1d04015d3b56b945d9a28\",\r\n    \"name\": \"user\",\r\n    \"description\": \"can use application\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/roles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"roles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Get all roles",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/roles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"roles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Add admin user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"firstName\": \"admin\",\r\n        \"lastName\": \"admin\",\r\n        \"email\": \"admin@admin.com\",\r\n        \"password\": \"$Admin123$\",\r\n        \"phoneNumber\": \"123456789\",\r\n        \"roleID\": \"62a1ceb159247954dc9333f5\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/withRole",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"withRole"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. Get all users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmEzNzBkYWFiYjA4ZWYyNzcyNjE2OWEiLCJpYXQiOjE2NTUzMTMwMzgsImV4cCI6MTY1NTMyMDIzOH0.E9X4-QHAyeRnTFS6FCU_Vjrb87OJQObXQQ59LX4MxR4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

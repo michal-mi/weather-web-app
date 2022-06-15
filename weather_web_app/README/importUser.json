@@ -1,0 +1,17 @@
+ [{
+		"_id": "62a200d6f157f0b7b8b602e6",
+        "firstName": "u1",
+        "lastName": "u1",
+        "email": "u1@u1.com",
+        "password": "$Haslo123$",
+        "phoneNumber": "123456789",
+        "roleID": "62a1d04015d3b56b945d9a28"
+    },{
+		"_id": "62a200d6f157f0b7b8b602e4",
+       "firstName": "u2",
+        "lastName": "u2",
+        "email": "u2@u2.com",
+        "password": "$Haslo123$",
+        "phoneNumber": "123456789",
+        "roleID": "62a1d04015d3b56b945d9a28"
+    }]

@@ -1,0 +1,28 @@
+[{
+	"city": "Tokio",
+	"conditions": "Clear",
+	"temp": 16.3,
+	"mint": 6.8,
+	"maxt": 23.5,
+	"wspd": 6.9,
+	"wdir": 190.38,
+	"cloudcover": 4.9,
+	"precip": 0,
+	"humidity": 40.9,
+	"visibility": 10.7,
+	"sealevelpressure": 1021.1
+},
+{
+	"city": "Warszawa",
+	"conditions": "Clear",
+	"temp": 16.4,
+	"mint": 7.3,
+	"maxt": 22.4,
+	"wspd": 7.2,
+	"wdir": 150.88,
+	"cloudcover": 8.8,
+	"precip": 0,
+	"humidity": 59.44,
+	"visibility": 10.7,
+	"sealevelpressure": 1022.6
+}]

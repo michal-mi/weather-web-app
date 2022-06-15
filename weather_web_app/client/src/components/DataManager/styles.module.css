@@ -1,0 +1,189 @@
+.styledtable {
+    border-collapse: collapse;
+    margin: 25px 25px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    max-width: 95%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.styledtable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styledtable th,
+.styledtable td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.styledtable tbody tr {
+    border-bottom: 1px solid #dddddd;
+    align-items: center;
+}
+
+.styledtable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styledtable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styledtable tbody tr.activerow {
+    font-weight: bold;
+    color: #009879;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-right: 40px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #3bb19b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.white_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.green_btn {
+    border: none;
+    outline: none;
+    padding: 24px 0;
+    background-color: #3bb19b;
+    border-radius: 20px;
+    width: 350px;
+    font-weight: bold;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.green_btn {
+    background-color: #3bb19b;
+    color: white;
+    margin: 24px;
+}
+
+.exit_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.exit_btn {
+    background-color: lightskyblue;
+    color: white;
+    margin: 12px;
+}
+
+.delete_btn {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    background-color: red;
+    border-radius: 20px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete_btn {
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+.green_btn_small {
+    border: none;
+    outline: none;
+    padding: 14px 0;
+    background-color: #3bb19b;
+    border-radius: 15px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.green_btn_small {
+    background-color: #3bb19b;
+    color: white;
+    margin: 14px;
+}
+
+.details_btn {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.details_btn {
+    background-color: lightblue;
+    color: white;
+    margin: 10px;
+}
+
+.red_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: red;
+    border-radius: 20px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.red_btn {
+    background-color: red;
+    color: white;
+    margin: 12px;
+}

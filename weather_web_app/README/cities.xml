@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE base>
+<base>
+	<element>
+		<conditions>Clear</conditions>
+		<temp>16.3</temp>
+		<mint>6.8</mint>
+		<maxt>23.5</maxt>
+		<wspd>6.9</wspd>
+		<wdir>156.38</wdir>
+		<cloudcover>4.9</cloudcover>
+		<precip>0</precip>
+		<humidity>67.9</humidity>
+		<visibility>8.7</visibility>
+		<sealevelpressure>1023.1</sealevelpressure>
+		<city>Lublin</city>
+	</element>
+	<element>
+		<conditions>Clear</conditions>
+		<temp>16.4</temp>
+		<mint>7.3</mint>
+		<maxt>22.4</maxt>
+		<wspd>7.2</wspd>
+		<wdir>156.88</wdir>
+		<cloudcover>8.8</cloudcover>
+		<precip>0</precip>
+		<humidity>59.44</humidity>
+		<visibility>10.7</visibility>
+		<sealevelpressure>1022.6</sealevelpressure>
+		<city>Warszawa</city>
+	</element>
+</base>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE base>
+<base>
+	<element>
+		<_id>62a200d6f157f0b7b8b602e4</_id>
+		<firstName>u2</firstName>
+		<lastName>u2</lastName>
+		<email>u2@u2.com</email>
+		<password>$2b$10$o914RvGqwAqLbeiSWs0gAuEBuXJ4K7NO0SHt7RDJKKwHkdOa.Nwga</password>
+		<phoneNumber>123456789</phoneNumber>
+		<roleID>62a1d04015d3b56b945d9a28</roleID>
+	</element>
+	<element>
+		<_id>62a200d6f157f0b7b8b602e6</_id>
+		<firstName>u1</firstName>
+		<lastName>u1</lastName>
+		<email>u1@u1.com</email>
+		<password>$2b$10$4HZtv8eEvnqoS2mmM9qfN.tsysxhMOpMfaEaoj7m7nAVVnjYReLsy</password>
+		<phoneNumber>123456789</phoneNumber>
+		<roleID>62a1d04015d3b56b945d9a28</roleID>
+	</element>
+</base>
